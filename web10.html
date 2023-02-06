@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web0206</title>
+    <link rel="icon" href="/images/redskyman.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
+    <style>
+        .container{
+            width: 400px;
+            height: 400px;
+            margin: 50px auto;
+            padding: 30px;
+            background: greenyellow;
+            opacity: 0.7;
+        }
+        
+        
+        .div1{
+            width: 400px;
+            height: 200px;
+            color: white;
+            background: red;
+        }
+
+        .div2{
+            width: 400px;
+            height: 200px;
+            color: white;
+            background: blue;
+        }
+       
+        #bg-video1 {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        bottom: auto;
+        right: auto;
+        min-width: 100%;
+        min-height: 100%;
+        transform: translateX(-50%) translateY(-50%);
+        z-index: -100;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+
+        .divPosition{
+                position: relative;
+                left: 50%;
+                top: 50%;
+                transform: translate(-150%, 50%);
+            }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="bg-video1">
+        <source src="/media/Time Lapse Video Of Aurora Borealis.mp4">
+    </video>
+    <div class="container divPosition">
+        <div class="div1">
+            「國際間發起保護黑鮪魚的運動，由日紐澳三國簽訂了「南方黑鮪魚保育公約」，
+            限定參與國的捕撈額度。大西洋黑鮪也有類似的限額保護行動，唯有太平洋黑鮪尚
+            未受到國際公約的保護，僅由主要的捕撈國家日本、美國、台灣和韓國，自行進行
+            漁獲量紀錄，並將資料送給美洲熱帶鮪魚委員會。然而盜捕的行為依然猖獗，黑鮪
+            魚的未來面臨著極大的危機，如何讓黑鮪魚永續生存在海洋中，不僅是漁人該思考
+            的問題，也需你我的加入。」(此文出自《黑鮪魚的旅行》作者林滿秋)
+        </div>
+        <br>
+        <div class="div2">
+            從幾個網站連結中做了一些功課，發現全台灣各縣市針對不同魚類，做了很多行銷活
+            動，當然是立意良善，但眼光總嫌短淺了些。大部分的民眾是盲目的(包括我)，而美
+            食當前，亦少有人會去思考這些祭了五臟廟的食物，是怎麼來的？我們的飲食行為(例
+            如喜愛吃黑鮪魚或者特定魚種)是否會對海洋生態帶來一些傷害與衝擊？漁民是否能遵
+            守國際間制訂的總額獵捕公約呢？
+        </div>
+    </div>
+
+</body>
+</html>
